@@ -24,7 +24,6 @@ function setup() {
   ground = new Ground(width/2,height,width,20);
 
 
-particle = new Particle()
   for (var k = 20; k <=width; k = k + 80) {
      divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
    }
@@ -87,6 +86,6 @@ plinkos6[i].display()
 
    
  }
- particle.display()
+
 
 }
